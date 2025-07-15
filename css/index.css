@@ -1,6 +1,6 @@
 /* estilos.css */
-html, body {
-    height: 50%;
+html{
+    height: 100%;
     margin: 0;
 }
 
@@ -9,4 +9,18 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-rectangulo {
+    width: 70vw;    /* 3/4 del ancho de la pantalla */
+    height: 100vh;  /* toda la altura de la pantalla */
+    background-color: whitesmoke;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+
 }
