@@ -5,7 +5,7 @@ html, body {
 }
 
 body {
-    background-image: url('/imagenes/xp.gif');
+    background-image: url('../imagenes/xp.gif');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
