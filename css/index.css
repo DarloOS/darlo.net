@@ -1,0 +1,12 @@
+/* estilos.css */
+html, body {
+    height: 50%;
+    margin: 0;
+}
+
+body {
+    background-image: url('/imagenes/xp.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
