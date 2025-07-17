@@ -1,14 +1,7 @@
 /* estilos.css */
-html{
-    height: 100%;
-    margin: 0;
-}
-
 body {
     background-image: url('../imagenes/xp.gif');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-size: contain;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,10 +10,5 @@ body {
 .contenedor-rectangulo {
     width: 70vw;    /* 3/4 del ancho de la pantalla */
     height: 100vh;  /* toda la altura de la pantalla */
-    background-color: whitesmoke;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    box-sizing: border-box;
-
+    background-color: white;
 }
