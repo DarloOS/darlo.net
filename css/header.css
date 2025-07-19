@@ -1,7 +1,7 @@
 .mi-header {
     height: 100px;
     background-image: url('../imagenes/index/Header.png');
-    background-size: 1070px 100px;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
