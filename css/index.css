@@ -19,6 +19,7 @@ body {
 h2{
     background-color: whitesmoke;
 }
+/*#############Parrafo 1##################*/
 .introduccion {
     display: flex;
     gap: 20px;
@@ -28,6 +29,70 @@ h2{
 .introduccion img {
     max-width: 200px;
 }
+/*########################################*/
+
+/*#############Parrafo 2##################*/
+.parrafo_dos img[alt=perro]{
+    height: 10vh;
+    background-color: whitesmoke;
+    float: right;
+}
+
+
+.parrafo_dos img[alt=github]{
+    height: 7vh;
+    background-color: whitesmoke;
+    float: left;
+}
+/*########################################*/
+
+
+/*#############Parrafo 3##################*/
+.parrafo_tres{
+    display: flex;
+}
+
+.parrafo_tres img[alt=perro_lector]{
+    height: 10vh;
+    background-color: whitesmoke;
+    float: right;
+}
+.parrafo_tres img[alt=queso]{
+    height: 10vh;
+    margin-right: 100px;
+    background-color: whitesmoke;
+    float: left;
+}
+/*########################################*/
+
+
+/*#############Parrafo 4##################*/
+.parrafo_cuatro img[alt=radar]{
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+/*########################################*/
+
+/*#############Parrafo 5##################*/
+
+.parrafo_cinco img[alt=clip]{
+    background-color: whitesmoke;
+    float: right;
+}
+.parrafo_cinco img[alt=messinger]{
+    width: 100px;
+    background-color: whitesmoke;
+    float: right;
+}
+.parrafo_cinco img[alt=marco]{
+    width: 100px;
+    background-color: whitesmoke;
+    float: right;
+}
+
+/*########################################*/
 
 p {
     font-family: "Courier New", monospace;
@@ -37,3 +102,10 @@ p {
     background-color: whitesmoke;
     padding: 15px;
 }
+
+#pong {
+    display: block;
+    margin: 20px auto;
+    border: 5px solid grey;
+}
+
