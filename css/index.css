@@ -12,8 +12,9 @@ body {
     width: 70vw;
     height: auto;
     background-color: lightgrey;
-    border-left: 8px solid #0077cc;
-    border-right: 8px solid #0077cc;
+    border-left: 8px solid #0068b3;
+    border-right: 8px solid #0068b3;
+    border-bottom: 8px solid #0068b3;
 }
 h2{
     background-color: whitesmoke;
