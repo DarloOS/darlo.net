@@ -12,6 +12,7 @@ body {
     width: 70vw;
     height: auto;
     background-color: lightgrey;
+    border-top: 8px solid #0068b3;
     border-left: 8px solid #0068b3;
     border-right: 8px solid #0068b3;
     border-bottom: 8px solid #0068b3;
