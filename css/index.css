@@ -107,3 +107,56 @@ p {
     border: 5px solid grey;
 }
 
+/*########################################*/
+/*         MEDIA QUERY: MÓVIL/TABLET      */
+/*########################################*/
+@media (max-width: 768px) {
+
+    .contenedor-rectangulo {
+        width: 90vw;
+        border-left: 4px solid #0068b3;
+        border-right: 4px solid #0068b3;
+        border-bottom: 4px solid #0068b3;
+    }
+
+    .introduccion {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .introduccion img {
+        max-width: 80%;
+    }
+
+    .parrafo_dos img[alt=perro],
+    .parrafo_dos img[alt=github],
+    .parrafo_tres img[alt=perro_lector],
+    .parrafo_tres img[alt=queso],
+    .parrafo_cinco img[alt=clip],
+    .parrafo_cinco img[alt=messinger],
+    .parrafo_cinco img[alt=marco] {
+        float: none;
+        display: block;
+        margin: 10px auto;
+        max-width: 80%;
+        height: auto;
+    }
+
+    .parrafo_tres {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    p {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    #pong {
+        width: 100%;
+    }
+}
+
+
