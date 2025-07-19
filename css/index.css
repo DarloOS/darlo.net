@@ -19,6 +19,16 @@ body {
 h2{
     background-color: whitesmoke;
 }
+.introduccion {
+    display: flex;
+    gap: 20px;
+    background: whitesmoke;
+}
+
+.introduccion img {
+    max-width: 200px;
+}
+
 p {
     font-family: "Courier New", monospace;
     font-size: 16px;
