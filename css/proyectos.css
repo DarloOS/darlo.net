@@ -9,7 +9,51 @@ body {
 }
 
 .contenedor-rectangulo {
-    width: 70vw;    /* 3/4 del ancho de la pantalla */
-    height: 100vh;  /* toda la altura de la pantalla */
-    background-color: white;
+    width: 70vw;
+    height: auto;
+    background-color: lightgrey;
+    border-top: 8px solid #0068b3;
+    border-left: 8px solid #0068b3;
+    border-right: 8px solid #0068b3;
+    border-bottom: 8px solid #0068b3;
+}
+
+
+/*#############Parrafo 1##################*/
+.parrafo_uno {
+    display: flex;
+    gap: 20px;
+    background: whitesmoke;
+}
+/*########################################*/
+
+/*#############Proyecto 1##################*/
+.proyecto_uno{
+    display: flex;
+}
+.proyecto_uno img[alt=imagen] {
+    float: right;
+}
+/*########################################*/
+
+/*#############Proyecto 2##################*/
+.proyecto_dos{
+    display: flex;
+}
+.proyecto_dos img[alt=imagen] {
+    float: right;
+}
+.proyecto_dos img[alt=imagen_dos] {
+    height: 10vh;
+    float: right;
+}
+/*########################################*/
+
+p {
+    font-family: "Courier New", monospace;
+    font-size: 16px;
+    color: #444;
+    line-height: 1.5;
+    background-color: whitesmoke;
+    padding: 15px;
 }

@@ -51,7 +51,7 @@ h2{
 }
 
 .parrafo_tres img[alt=perro_lector]{
-    height: 10vh;
+
     background-color: whitesmoke;
     float: right;
 }
@@ -157,3 +157,44 @@ p {
         width: 100%;
     }
 }
+
+/*########################################*/
+/*   MEDIA QUERY: móviles muy pequeños    */
+/*        (iPhone 13 mini, SE, etc.)      */
+/*########################################*/
+@media (max-width: 400px) {
+
+    .contenedor-rectangulo {
+        width: 95vw;
+        border-left: 3px solid #0068b3;
+        border-right: 3px solid #0068b3;
+        border-bottom: 3px solid #0068b3;
+    }
+
+    .introduccion img {
+        max-width: 90%;
+    }
+
+    .parrafo_dos img[alt=perro],
+    .parrafo_dos img[alt=github],
+    .parrafo_tres img[alt=perro_lector],
+    .parrafo_tres img[alt=queso],
+    .parrafo_cinco img[alt=clip],
+    .parrafo_cinco img[alt=messinger],
+    .parrafo_cinco img[alt=marco] {
+        max-width: 90%;
+        margin: 8px auto;
+    }
+
+    p {
+        font-size: 13.5px;
+        padding: 10px;
+    }
+
+    #pong {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+
