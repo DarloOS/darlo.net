@@ -2,7 +2,7 @@
 body {
     background-image: url('../imagenes/xp.jpg');
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     display: flex;
     align-items: center;
     justify-content: center;
