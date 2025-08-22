@@ -19,6 +19,14 @@ body {
     border-bottom: 8px solid #0068b3;
 }
 
+.img-gusano {
+    width: 300px;       /* tamaño en escritorio */
+    height: auto;
+    margin: 10px auto;
+    display: block;
+
+}
+
 .img-sanrana {
     width: 300px;       /* tamaño en escritorio */
     height: auto;
